@@ -19,6 +19,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+knowledge-graph-organs/
 
 # Streamlit
 .streamlit/
