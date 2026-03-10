@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "web": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    "neo4j": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "neo4j-mcp-server"
+      ]
+    },
+    "gdrive": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-gdrive"
+      ]
+    }
+  }
+}
